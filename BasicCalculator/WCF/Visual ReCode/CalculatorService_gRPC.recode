@@ -1,0 +1,7 @@
+<VisualReCode>
+  <WcfToGrpc SourceSolution="GettingStarted.sln" TargetSolution="D:\Recode\Samples\Microsoft\BasicCalculator\gRPC\BasicCalculatorCore.sln">
+    <Services>
+      <Service ServiceContractProject="service/service.csproj" TargetProject="BasicCalculatorCore" ServiceContract="Microsoft.Samples.GettingStarted.ICalculator" GenerateClientProject="False" Implementation="Microsoft.Samples.GettingStarted.CalculatorService" ImplementationProject="service/service.csproj" TargetClientProject="BasicCalculatorCore.Client" />
+    </Services>
+  </WcfToGrpc>
+</VisualReCode>

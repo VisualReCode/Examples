@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+option csharp_namespace = "BasicCalculatorCore.Client.Protos";
+
+package basic_calculator_core;
+
+service Calculator {
+  rpc Add (AddRequest) returns (AddResponse);
+  rpc Subtract (SubtractRequest) returns (SubtractResponse);
+  rpc Multiply (MultiplyRequest) returns (MultiplyResponse);
+  rpc Divide (DivideRequest) returns (DivideResponse);
+}
+
+
+message AddRequest {
+
+  double value1 = 1;
+  double value2 = 2;
+}
+
+
+message SubtractRequest {
+
+  double value1 = 1;
+  double value2 = 2;
+}
+
+
+message MultiplyRequest {
+
+  double value1 = 1;
+  double value2 = 2;
+}
+
+
+message DivideRequest {
+
+  double value1 = 1;
+  double value2 = 2;
+}
+
+
+message AddResponse {
+
+  double value = 1;
+}
+
+
+message SubtractResponse {
+
+  double value = 1;
+}
+
+
+message MultiplyResponse {
+
+  double value = 1;
+}
+
+
+message DivideResponse {
+
+  double value = 1;
+}
+
+
+
