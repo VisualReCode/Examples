@@ -4,7 +4,9 @@ A migration of a very simple request/response service, using the Calculator samp
 from the `Basic\GettingStarted\GettingStarted\CS\GettingStarted.sln` folder in the
 [WCF Samples](https://docs.microsoft.com/dotnet/framework/wcf/samples/).
 
-This solution demonstrates the generation of the `.proto` file from a `ServiceContract`, and the
+This solution demonstrates the generation of
+[the `.proto` file](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/BasicCalculatorCore/Protos/basic_calculator_core.proto)
+from a `ServiceContract`, and the
 generated gRPC service implementation that maps to a copy of the original service implementation.
 
 It also includes a generated "client wrapper" that matches the interface of the original WCF-generated
