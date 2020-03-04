@@ -4,12 +4,16 @@ A migration of a very simple request/response service, using the Calculator samp
 from the `Basic\GettingStarted\GettingStarted\CS\GettingStarted.sln` folder in the
 [WCF Samples](https://docs.microsoft.com/dotnet/framework/wcf/samples/).
 
-This solution demonstrates the generation of
-[the `.proto` file](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/BasicCalculatorCore/Protos/basic_calculator_core.proto)
+This solution demonstrates the generation of the
+[`.proto` file](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/BasicCalculatorCore/Protos/basic_calculator_core.proto)
 from a `ServiceContract`, and the
-generated gRPC service implementation that maps to a copy of the original service implementation.
+[generated gRPC service implementation](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/BasicCalculatorCore/Services/Calculator.cs)
+ that maps to a
+ [copy of the original service implementation](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/service/CalculatorService.cs).
 
-It also includes a generated "client wrapper" that matches the interface of the original WCF-generated
+It also includes a
+[generated client wrapper](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/BasicCalculatorCore.Client/CalculatorClient.cs)
+that matches the interface of the original WCF-generated
 client, which can be used in client applications to make switching to the new gRPC service easier.
 The client library targets both .NET 4.5 and .NET Standard 2.1, so you can use it in legacy .NET Framework
 applications as well as with Windows Forms or WPF apps you've upgraded to .NET Core 3.1. For brand new
@@ -19,6 +23,7 @@ The `BasicCalculatorCore` and `BasicCalculatorCore.Client` projects were entirel
 and have not been modified in any way. The `service` project was automatically copied from the WCF source solution and
 converted to a .NET Standard 2.1 project, and has also not been modified in any way.
 
-The `ClientApp` .NET Core 3.1 console project was created by hand with most of the code in the `Program.Main`
+The [ClientApp](https://github.com/VisualReCode/Examples/blob/master/BasicCalculator/gRPC/src/ClientApp/Program.cs)
+.NET Core 3.1 console project was created by hand with most of the code in the `Program.Main`
 method copied and pasted from the `client` project in the source application to demonstrate the backward-compatible
 client feature.
