@@ -1,0 +1,7 @@
+<VisualReCode>
+  <WcfToGrpc SourceSolution="Calculator.sln" TargetSolution="D:\Recode\Sandbox\Duplex\CalculatorCore\CalculatorCore.sln">
+    <Services>
+      <Service ServiceContractProject="service/service.csproj" TargetProject="CalculatorCore" ServiceContract="Microsoft.Samples.Duplex.ICalculatorDuplex" GenerateClientProject="False" Implementation="Microsoft.Samples.Duplex.CalculatorService" ImplementationProject="service/service.csproj" TargetClientProject="CalculatorCore.Client" />
+    </Services>
+  </WcfToGrpc>
+</VisualReCode>

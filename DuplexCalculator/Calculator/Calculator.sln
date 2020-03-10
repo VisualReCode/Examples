@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client", "client\client.csproj", "{F6D8FC2E-62D0-4554-AC3E-1964042590E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "service", "service\service.csproj", "{73D6E51B-9EAB-4EBE-BAA3-794D636BD176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visual ReCode", "Visual ReCode", "{A0474609-4640-4CE6-A57F-480FB15A7623}"
+	ProjectSection(SolutionItems) = preProject
+		Visual ReCode\CalculatorService_gRPC.recode = Visual ReCode\CalculatorService_gRPC.recode
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D8FC2E-62D0-4554-AC3E-1964042590E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D6E51B-9EAB-4EBE-BAA3-794D636BD176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D6E51B-9EAB-4EBE-BAA3-794D636BD176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D6E51B-9EAB-4EBE-BAA3-794D636BD176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D6E51B-9EAB-4EBE-BAA3-794D636BD176}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69E1ECE2-63C9-43B3-86EA-E373A5CE53F8}
+	EndGlobalSection
+EndGlobal
