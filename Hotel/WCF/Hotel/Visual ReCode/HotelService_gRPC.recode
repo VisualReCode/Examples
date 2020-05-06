@@ -1,0 +1,7 @@
+<VisualReCode>
+  <WcfToGrpc SourceSolution="Hotel.sln" TargetSolution="..\..\..\Testing\Demo\HotelCore.sln">
+    <Services>
+      <Service ServiceContractProject="Hotel\Hotel.csproj" TargetProject="HotelCore" ServiceContract="Hotel.IHotelService" GenerateClientProject="True" GenerateWcfProxyProject="True" Implementation="Hotel.HotelService" ImplementationProject="Hotel\Hotel.csproj" TargetClientProject="HotelCore.Client" TargetWcfProxyProject="HotelCore.WcfProxy" />
+    </Services>
+  </WcfToGrpc>
+</VisualReCode>
